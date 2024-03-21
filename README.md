@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-
+<!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -9,27 +9,23 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/juanenrique92/spanish_elections_results">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/qr_elecciones_generales_23J.png" alt="Logo" width="120" height="120">
   </a>
-
   <h3 align="center">spanish_elections_results</h3>
-
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Jupyter Notebook creado explotar la información electoral de las elecciones generales al Congreso de los Diputados
     <br />
-    <a href="https://github.com/juanenrique92/spanish_elections_results"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/juanenrique92/spanish_elections_results"><strong>Explora el código »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/juanenrique92/spanish_elections_results">View Demo</a>
+    <a href="https://github.com/juanenrique92/spanish_elections_results">Tableau resultados con obtenidos</a>
     ·
-    <a href="https://github.com/juanenrique92/spanish_elections_results/issues">Report Bug</a>
+    <a href="https://github.com/juanenrique92/spanish_elections_results/issues">Reportar Incidencia</a>
     ·
-    <a href="https://github.com/juanenrique92/spanish_elections_results/issues">Request Feature</a>
+    <a href="https://github.com/juanenrique92/spanish_elections_results/issues">Solicitar desarrollo</a>
   </p>
 </div>
 
@@ -37,7 +33,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>índice</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -65,6 +61,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -234,7 +231,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/juanenrique92/spanish_elections_results/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juanenriquelopezmarcos
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/sc_tableau.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
