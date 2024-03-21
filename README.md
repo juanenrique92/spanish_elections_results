@@ -16,7 +16,8 @@
   </a>
   <h3 align="center">spanish_elections_results</h3>
   <p align="center">
-    Jupyter Notebook creado explotar la información electoral de las elecciones generales al Congreso de los Diputados
+    Jupyter Notebook desarrollado para facilitar la representación en formato de archivo geoespacial (GeoJson & ShapeFile) de los resultados electorales al Congreso de los Diputados - España (julio 2023).
+    <br />
     <br />
     <a href="https://github.com/juanenrique92/spanish_elections_results"><strong>Explora el código »</strong></a>
     <br />
@@ -72,24 +73,25 @@ Las fuentes de datos son dos, ambas oficiales:
 - Fichero de geometrías (secciones censales). Se descarga un fichero llamado seccionado_2023.zip. [URL de la fuente](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
 ### Requerimientos
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Enumeramos los requerimientos para ejecutar el jupyter notebook:
+Entorno de ejecución:
+- [Anaconda](https://www.anaconda.com/)
+- [JupyterLAB](https://jupyter.org/)
+- Python >= 3.10.13
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+Librerías Python:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Pandas](https://pandas.pydata.org/) >= 2.2.1 y sus dependencias
+- [Geopandas](https://geopandas.org/) >= 0.14.2 y sus dependencias
+
+
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
@@ -125,7 +127,7 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
@@ -136,7 +138,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
@@ -144,7 +146,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Add Changelog
-- [x] Add back to top links
+- [x] Add ir al principio links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
@@ -153,7 +155,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/othneildrew/spanish_elections_results/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
@@ -171,7 +173,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
@@ -180,36 +182,19 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Juan Enrique López Marcos - [@your_twitter](https://twitter.com/your_username) - juanenrique.lopezmarcos@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/juanenrique92/spanish_elections_results/)]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">ir al principio</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
