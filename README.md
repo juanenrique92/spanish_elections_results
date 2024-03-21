@@ -15,7 +15,7 @@
 
 <div align="center">
     <h2 align="center">spanish_elections_results</h2>
-  <a href="https://github.com/juanenrique92/spanish_elections_results">
+  <a href="https://public.tableau.com/app/profile/juan.enrique/viz/ResultadosElectoralesalCongresodelosDiputadosEspaa23deJuliode2023/BUSCADORELECCIONES23J?publish=yes">
     <img src="images/qr_elecciones_generales_23J.png" alt="Logo" width="180" height="180">
   </a>
 
