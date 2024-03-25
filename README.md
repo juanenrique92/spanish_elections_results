@@ -43,6 +43,7 @@
       <li><a href="#built-with">Fuentes de información</a></li>
       <li><a href="#built-with">Uso</a></li>
       <li><a href="#built-with">Contribuciones</a></li>
+      <li><a href="#built-with">Road Map</a></li>
       <li><a href="#built-with">Licencia</a></li>
       <li><a href="#built-with">Contacto</a></li>
   </ol>
@@ -97,13 +98,37 @@ Las contribuciones son lo que hacen que la comunidad open source sea un lugar in
 Si tienes una sugerencia que podría mejorar esto, por favor bifurca el repositorio y crea una solicitud de extracción. También puedes simplemente abrir un problema con la etiqueta "mejora".
 ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
 
+### 6. Road Map
 
-### 6. Licencia
+Funciones principales:
+
+- [x] Cargar, formatear y transformar datos en un único geodataframe (partidos, resultados electorales y geometrías).
+  - [x] Generar gdf agregado sección censal.
+  - [x] Generar gdf partido más votado.
+  - [x] Generar gdf partidos más representativos.
+  - [x] Generar gdf tabla pivoteada.
+        
+- [ ] Exportaciones.
+  - [x] Opción exportar como GeoJson.
+  - [x] Opción exportar como ShapeFile.
+  - [x] Opción exportar como CSV.
+  - [ ] Opción exportar como TopoJson.
+
+Futuros desarrollos:
+- [ ] Testear ficheros de elecciones anteriores.
+  - [ ] Unificar 2 o mas datos de convocatorias de elecciones.
+- [ ] Crear índice politico*.
+- [ ] Crear clase con todas las funciones y separar un script principal y otro de funciones.
+
+
+* Con ínidice político me refiero a una medida que identifique de alguna forma la orientación politica de los votantes de una sección censal
+
+### 7. Licencia
 
 Distribuido bajo licencia GPL-3.0 . Ver `LICENSE.txt` para más información.
 
 
-### 7. Contacto
+### 8. Contacto
 
 Juan Enrique López Marcos - [LinkedIn][linkedin-url] - juanenrique.lopezmarcos@gmail.com
 
